@@ -1,4 +1,4 @@
-# InventoryProgram
+# WGU Software 1 - C482
 Inventory Program that lets users manage parts and products.
 
 ## Concepts implemented creating this program
