@@ -9,4 +9,4 @@ Inventory Program that lets users manage parts and products.
 - MVC
 
 ### Language used
-Java
+Java (JavaFX and scene builder).
