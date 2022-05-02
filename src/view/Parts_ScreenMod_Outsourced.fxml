@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="outsourced" prefHeight="653.0" prefWidth="549.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PartsScreenModOutsourced">
+   <children>
+      <Button fx:id="outsourcedSaveBtn" layoutX="293.0" layoutY="467.0" mnemonicParsing="false" onAction="#savePart" text="Save" />
+      <Button fx:id="outModCnlBtn" layoutX="381.0" layoutY="467.0" mnemonicParsing="false" onAction="#outModCancel" text="Cancel" />
+      <TextField fx:id="outsourcedID" disable="true" editable="false" layoutX="144.0" layoutY="177.0" text="Auto Gen - Disabled" />
+      <TextField fx:id="outsourcedName" layoutX="144.0" layoutY="217.0" />
+      <TextField fx:id="outsourcedInv" layoutX="144.0" layoutY="258.0" />
+      <TextField fx:id="outsourcedPrice" layoutX="144.0" layoutY="296.0" />
+      <TextField fx:id="outsourcedMax" layoutX="144.0" layoutY="334.0" />
+      <TextField fx:id="outsourcedCompany" layoutX="144.0" layoutY="372.0" />
+      <TextField fx:id="outsourcedMin" layoutX="347.0" layoutY="334.0" />
+      <Label layoutX="36.0" layoutY="77.0" text="Modify Part">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Label>
+      <Label layoutX="41.0" layoutY="221.0" text="Name" />
+      <Label layoutX="41.0" layoutY="181.0" text="ID" />
+      <Label layoutX="41.0" layoutY="262.0" text="Inv" />
+      <Label layoutX="41.0" layoutY="300.0" text="Price/Cost" />
+      <Label layoutX="41.0" layoutY="338.0" text="Max" />
+      <Label layoutX="41.0" layoutY="376.0" text="Company Name" />
+      <Label layoutX="312.0" layoutY="338.0" text="Min" />
+      <RadioButton fx:id="outsourcedIn" disable="true" layoutX="144.0" layoutY="81.0" mnemonicParsing="false" text="In-House" />
+      <RadioButton fx:id="outsourcedOut" layoutX="270.0" layoutY="81.0" mnemonicParsing="false" selected="true" text="Outsourced" />
+   </children>
+</AnchorPane>
